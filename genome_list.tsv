@@ -1,8 +1,8 @@
 species_name	proteomes	lifestyle	genomes	accession	alternative_name
-Alternaria_alternata	3.0	N	1	GCA_001572055.1,GCA_001642055.1,GCA_004154755.1	
-Alternaria_arborescens	3.0	N	1	GCA_004154815.1,GCA_004154835.1,GCA_004155955.1
-Alternaria_gaisen	1.0	N	1	GCA_004156025.2
-Alternaria_tenuissima	7.0	N	1	GCA_004154735.1,GCA_004154745.1,GCA_004154765.1,GCA_004154845.1,GCA_004156015.1,GCA_004156035.1,GCA_004168565.1
+Alternaria_alternata	3.0	N	1	GCA_001572055.1,GCA_001642055.1,GCA_004154755.1	 
+Alternaria_arborescens	3.0	N	1	GCA_004154815.1,GCA_004154835.1,GCA_004155955.1   
+Alternaria_gaisen	1.0	N	1	GCA_004156025.2   
+Alternaria_tenuissima	7.0	N	1	GCA_004154735.1,GCA_004154745.1,GCA_004154765.1,GCA_004154845.1,GCA_004156015.1,GCA_004156035.1,GCA_004168565.1 
 Ascochyta_rabiei	1.0	N	1	GCA_001630375.1	
 Bipolaris_zeicola	1.0	N	1	GCF_000523435.1	Cochliobolus_carbonum
 Bipolaris_maydis	2.0	N	1	GCA_000338975.1,GCA_000354255.1	Cochliobolus_heterostrophus
