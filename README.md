@@ -8,4 +8,4 @@ annotations.
 - `ls-pred_training.ipynb`: notebook for data training.
 
 ## Preprint
-Please find the preprint [here](https://www.biorxiv.org/content/10.1101/2021.01.12.426341v1)
+Please find the preprint [here](https://www.biorxiv.org/content/10.1101/2021.01.12.426341v1).
