@@ -16,5 +16,12 @@ notebook constructed to predict plant pathogenic lifestyle from genome/transcrip
 - tensorflow >= 2.0
 - h5py == 2.10
 
+### Optionally
+You create a conda environment with the packages needed to reproduce the results using the `conda-env.txt` file:
+
+`conda create --name <myenv> --file spec-file.txt`
+
+Where `<myenv>` is the name of your desired environment.
+
 ## Preprint
 Please find the preprint [here](https://www.biorxiv.org/content/10.1101/2021.01.12.426341v1).
