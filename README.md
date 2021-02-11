@@ -16,12 +16,19 @@ notebook constructed to predict plant pathogenic lifestyle from genome/transcrip
 - tensorflow >= 2.0
 - h5py == 2.10
 
-### Optionally
-You create a conda environment with the packages needed to reproduce the results using the `conda-env.txt` file:
+### Conda environment
+Optionally, you create a conda environment with the packages needed to reproduce the results using the `conda-env.txt` file:
 
 `conda create --name <myenv> --file spec-file.txt`
 
-Where `<myenv>` is the name of your desired environment.
+where `<myenv>` is the name of your desired environment.
+
+## Wrapper script
+Instead of running the notebook it is possible to run the entire prediction pipeline using the wrapper script `lspred.py`. 
+For correct use you need to specify as arguments the appropriate `.tsv` file of the genome-properties annotation. It is possible to analyze several files using wildcards. 
+As an example:
+
+`python lspred.py test_files/TABLE_*.tsv`
 
 ## Preprint
 Please find the preprint [here](https://www.biorxiv.org/content/10.1101/2021.01.12.426341v1).
