@@ -1,10 +1,15 @@
 # LS-pred
-
 In this repository you find the training dataset and python 
 notebook constructed to predict plant pathogenic lifestyle from genome/transcriptome annotations.
 - `lspred_prep_data.ipynb`: notebook to prepare data for training.
 - `lspred_training.ipynb`: notebook for data training.
-- `lspred_testing.ipynb`: notebook for testing new data.
+- `lspred_testing.ipynb`: notebook for testing new data.3
+
+The h5 model can be downloaded from: 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4541621.svg)](https://doi.org/10.5281/zenodo.4541621)
+
+Please place this h5 file in the same directory as the notebooks or scripts before running.
 
 ## Input data
 - Annotate your genome with [InterProScan](https://github.com/ebi-pf-team/interproscan).
