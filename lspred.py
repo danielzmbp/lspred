@@ -22,7 +22,7 @@ for i in t:
 
 Xt = pd.concat(l,axis=1)
 Xt = Xt.transpose()
-model = tf.keras.models.load_model('lspred_2_12_20.h5')
+model = tf.keras.models.load_model('lspred_15_2_21.h5')
 
 pred = model.predict(Xt)
 
