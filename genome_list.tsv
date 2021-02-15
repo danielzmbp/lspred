@@ -1,8 +1,8 @@
-species_name	proteomes	lifestyle	genomes	accession	alternative_name
-Alternaria_alternata	3.0	N	1	GCA_001572055.1,GCA_001642055.1,GCA_004154755.1	 
-Alternaria_arborescens	3.0	N	1	GCA_004154815.1,GCA_004154835.1,GCA_004155955.1   
-Alternaria_gaisen	1.0	N	1	GCA_004156025.2   
-Alternaria_tenuissima	7.0	N	1	GCA_004154735.1,GCA_004154745.1,GCA_004154765.1,GCA_004154845.1,GCA_004156015.1,GCA_004156035.1,GCA_004168565.1 
+species_name	proteomes	lifestyle	genomes accession	alternative_name
+Alternaria_alternata	3.0	N	1	GCA_001572055.1,GCA_001642055.1,GCA_004154755.1
+Alternaria_arborescens	3.0	N	1	GCA_004154815.1,GCA_004154835.1,GCA_004155955.1
+Alternaria_gaisen	1.0	N	1	GCA_004156025.2
+Alternaria_tenuissima	7.0	N	1	GCA_004154735.1,GCA_004154745.1,GCA_004154765.1,GCA_004154845.1,GCA_004156015.1,GCA_004156035.1,GCA_004168565.1
 Ascochyta_rabiei	1.0	N	1	GCA_001630375.1	
 Bipolaris_zeicola	1.0	N	1	GCF_000523435.1	Cochliobolus_carbonum
 Bipolaris_maydis	2.0	N	1	GCA_000338975.1,GCA_000354255.1	Cochliobolus_heterostrophus
@@ -106,11 +106,11 @@ Phytophthora_palmivora	1.0	H	1	GCA_002911725.1
 Phytophthora_parasitica	9.0	H	1	GCA_000509465.1,GCA_000509485.1,GCA_000509505.1,GCA_000509525.1,GCA_000247585.2,GCA_000365505.1,GCA_000365525.1,GCA_000367145.1,GCA_000365545.1
 Monilinia_laxa	1.0	N	1	GCA_009299455.1
 Thraustotheca_clavata	1.0	S	1	GCA_002081575.1
-Globisporangium_irregulare	1.0	N	1
-Globisporangium_splendens	1.0	N	1
-Pythium_aphanidermatum	1.0	N	1
-Pythium_brassicum	1.0	N	1
-Aphanomyces_euteiches	1.0	N	1
-Aphanomyces_stellatus	1.0	N	1
+Globisporangium_irregulare	1.0	N	1	GCA_000387425.2
+Globisporangium_splendens	1.0	N	1	GCA_006386115.1
+Pythium_aphanidermatum	1.0	N	1	GCA_000387445.2
+Pythium_brassicum	1.0	N	1	GCA_008271595.1
+Aphanomyces_euteiches	1.0	N	1	GCA_009835175.1
+Aphanomyces_stellatus	1.0	N	1	GCA_009835185.1
 Tilletiaria_anomala	1.0	B	1	GCA_000711695.1
 Ustilago bromivora	1.0	B	1	GCA_900080155.1
