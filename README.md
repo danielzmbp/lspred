@@ -9,7 +9,7 @@ The h5 model can be downloaded from:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4541621.svg)](https://doi.org/10.5281/zenodo.4541621)
 
-. Please place this h5 file in the same directory as the notebooks or scripts before running.
+Please place this h5 file in the same directory as the notebooks or scripts before running.
 
 ## Input data
 - Annotate your genome with [InterProScan](https://github.com/ebi-pf-team/interproscan).
