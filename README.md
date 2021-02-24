@@ -29,11 +29,17 @@ Optionally, you create a conda environment with the packages needed to reproduce
 where `<myenv>` is the name of your desired environment.
 
 ## Wrapper script
-Instead of running the notebook it is possible to run the entire prediction pipeline using the wrapper script `lspred.py`. 
-For correct use you need to specify as arguments the appropriate `.tsv` file of the genome-properties annotation. It is possible to analyze several files using wildcards. 
+It is possible to run the entire prediction pipeline using the wrapper script `lspred.py`. 
+For correct use you need to specify as input file the appropriate `.tsv` file or files resulting 
+from the genome-properties annotation. 
+
+`python lspred.py test_files/TABLE_Nothophytophthora_sp.tsv `
+
+Optionally, it is possible to specify an output format from of the following:
+`tsv`, `csv`, `html`; as well as an output file name where to which the results are written.
 As an example:
 
-`python lspred.py test_files/TABLE_*.tsv`
+`python lspred.py -f html -o first_batch.html test_files/TABLE_*.tsv`
 
 ## Preprint
 Please find the preprint [here](https://www.biorxiv.org/content/10.1101/2021.01.12.426341v1).
