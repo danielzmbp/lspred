@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ Lifestyle predictor """
 
@@ -8,6 +7,7 @@ import os
 import tensorflow as tf
 from typing import NamedTuple, TextIO, List
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 
 class Args(NamedTuple):
     """ Command-line arguments """
@@ -49,20 +49,21 @@ def get_args():
                 file_format=args.format,
                 outfile=args.outfile)
 
+
 def main() -> None:
 
     classes = ["saprotroph", "necrotroph", "hemibiotroph", "biotroph"]
     args = get_args()
 
-    l=[]
+    lf = []
     for i in args.files:
-        t = pd.read_csv(i,"\t",usecols=["step_name","step_value"])
+        t = pd.read_csv(i, "\t", usecols=["step_name", "step_value"])
         name = i.name.split("TABLE_")[-1].split(".")[0]
-        t.columns = ["name",name]
-        t.set_index("name",inplace=True)
-        l.append(t)
+        t.columns = ["name", name]
+        t.set_index("name", inplace=True)
+        lf.append(t)
 
-    x_t = pd.concat(l,axis=1)
+    x_t = pd.concat(lf, axis=1)
     x_t = x_t.transpose()
     model = tf.keras.models.load_model('lspred_15_2_21.h5')
 
@@ -80,5 +81,6 @@ def main() -> None:
 
     print("Output file written to " + output)
 
+
 if __name__ == '__main__':
-        main()
+    main()
