@@ -1,4 +1,4 @@
-species_name	proteomes	lifestyle	genomes accession	alternative_name
+species_name	proteomes	lifestyle	genomes	accession	alternative_name
 Alternaria_alternata	3.0	N	1	GCA_001572055.1,GCA_001642055.1,GCA_004154755.1
 Alternaria_arborescens	3.0	N	1	GCA_004154815.1,GCA_004154835.1,GCA_004155955.1
 Alternaria_gaisen	1.0	N	1	GCA_004156025.2
